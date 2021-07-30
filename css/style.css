@@ -1,0 +1,14 @@
+body{
+    font-family: 'Karla', sans-serif;
+}
+
+.font-spectral{
+    font-family: 'Spectral', serif;
+}
+
+.navbar-bg-color{
+    background-color: rgb(113, 174, 241);
+}
+.nav-links-font-size{
+    font-size: 24px;
+}
