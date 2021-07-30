@@ -12,3 +12,58 @@ body{
 .nav-links-font-size{
     font-size: 24px;
 }
+
+.header-section{
+    height: 600px;
+    background-image: url("../img/header-banner-4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fish-container-outline-border{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* padding-left: 10px;
+    padding-top: 10px; */
+}
+
+.fish-category-container{
+    margin-top: 100px;
+}
+
+.fish-container a{
+    text-decoration: none;
+}
+
+.category-name-one{
+    margin-top: 40px;
+}
+
+.category-name-two{
+    margin-top: 35px;
+}
+
+.category-name-three{
+    margin-top: 52px;
+}
+
+.category-name-four{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1500px){
+    .fish-container{
+        position: absolute;
+        top: 18px;
+        left: 18px;
+        width: 200px;
+        background-color: rgba(240, 244, 247 , 0.9);
+        border-radius: 10px;
+        height: 200px;
+    }
+}
+
