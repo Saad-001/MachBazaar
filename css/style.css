@@ -6,6 +6,10 @@ body{
     font-family: 'Spectral', serif;
 }
 
+.logo-img{
+    height: 65px;
+}
+
 .navbar-bg-color{
     background-color: rgb(113, 174, 241);
 }
@@ -27,12 +31,14 @@ body{
     position: relative;
     border: 2px solid white;
     border-radius: 10px;
-    /* padding-left: 10px;
-    padding-top: 10px; */
 }
 
 .btn-bg-color{
     background-color: #155F7A;
+}
+
+.card-shadow{
+    box-shadow: 5px 5px 5px rgba(218, 216, 216, 0.9);
 }
 
 .text-color-blue{
@@ -45,6 +51,11 @@ body{
 
 .fish-container a{
     text-decoration: none;
+}
+
+.all-fish-container{
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .category-name-one{
@@ -61,6 +72,10 @@ body{
 
 .category-name-four{
     margin-top: 20px;
+}
+
+.carousel-card{
+    margin: o auto;
 }
 
 @media screen and (max-width: 1500px){
