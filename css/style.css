@@ -31,6 +31,14 @@ body{
     padding-top: 10px; */
 }
 
+.btn-bg-color{
+    background-color: #155F7A;
+}
+
+.text-color-blue{
+    color: #155F7A;
+}
+
 .fish-category-container{
     margin-top: 100px;
 }
