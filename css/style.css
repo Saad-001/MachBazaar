@@ -78,6 +78,10 @@ body{
     margin: o auto;
 }
 
+.owl-dots{
+    padding-top: 24px;
+}
+
 @media screen and (max-width: 1500px){
     .fish-container{
         position: absolute;
