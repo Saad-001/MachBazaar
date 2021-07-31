@@ -12,6 +12,9 @@ body{
 
 .navbar-bg-color{
     background-color: rgb(113, 174, 241);
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 .nav-links-font-size{
     font-size: 24px;
