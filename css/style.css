@@ -1,3 +1,7 @@
+/* html{
+    position: relative;
+} */
+
 body{
     font-family: 'Karla', sans-serif;
 }
@@ -10,12 +14,26 @@ body{
     height: 65px;
 }
 
+nav.scroll {
+    background-color: #155F7A;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    transition: background-color 0.4s ease-out;
+  }
+
 .navbar-bg-color{
     background-color: rgb(113, 174, 241);
     position: sticky;
     top: 0;
     z-index: 2;
+    transition: background-color 0.4s ease-out;
 }
+
+nav button .navbar-toggler-icon{
+    color: black;
+}
+
 .nav-links-font-size{
     font-size: 24px;
 }
