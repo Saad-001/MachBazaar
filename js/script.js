@@ -20,8 +20,6 @@ window.onscroll = () => {
   if(this.scrollY <= 10) nav.className = 'navbar-bg-color navbar navbar-light pl-lg-0 py-lg-0 border-bottom border-white navbar-expand-lg'; else nav.className = 'scroll navbar navbar-light pl-lg-0 py-lg-0 border-bottom border-white navbar-expand-lg';
 };
 
-// const menuIcon = document.querySelector('#menuIcon');
-// menuIcon.classList.add('navbar-toggler-icon');
 
 
 // grab everything we need

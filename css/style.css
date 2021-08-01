@@ -1,6 +1,4 @@
-/* html{
-    position: relative;
-} */
+
 
 body{
     font-family: 'Karla', sans-serif;
@@ -8,6 +6,10 @@ body{
 
 .font-spectral{
     font-family: 'Spectral', serif;
+}
+
+.font-balooDa{
+    font-family: 'Baloo Da 2', cursive;
 }
 
 .logo-img{
@@ -30,9 +32,6 @@ nav.scroll {
     transition: background-color 0.4s ease-out;
 }
 
-nav button .navbar-toggler-icon{
-    color: black;
-}
 
 .nav-links-font-size{
     font-size: 24px;
@@ -74,6 +73,11 @@ nav button .navbar-toggler-icon{
     text-decoration: none;
 }
 
+.footer-a-tag{
+    text-decoration: none !important;
+    color: black;
+}
+
 .all-fish-container{
     padding-left: 80px;
     padding-right: 80px;
@@ -101,6 +105,17 @@ nav button .navbar-toggler-icon{
 
 .owl-dots{
     padding-top: 24px;
+}
+
+.input-border{
+    border: none;
+}
+.input-border:focus{
+    outline: none;
+}
+
+.footer-bg-color{
+    background-color: #F4F8F8;
 }
 
 @media screen and (max-width: 1500px){
