@@ -15,7 +15,7 @@ body{
 }
 
 .logo-img{
-    height: 65px;
+    height: 55px;
 }
 
 nav.scroll {
@@ -61,6 +61,17 @@ nav.scroll {
 
 .card-shadow{
     box-shadow: 5px 5px 5px rgba(218, 216, 216, 0.9);
+}
+
+/* .card-image{
+    position: relative;
+} */
+
+.badge{
+    position: absolute;
+    bottom: 225px;
+    right: 10px;
+    width: 80px;
 }
 
 .text-color-blue{
