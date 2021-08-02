@@ -63,10 +63,6 @@ nav.scroll {
     box-shadow: 5px 5px 5px rgba(218, 216, 216, 0.9);
 }
 
-/* .card-image{
-    position: relative;
-} */
-
 .badge{
     position: absolute;
     bottom: 225px;
@@ -124,6 +120,31 @@ nav.scroll {
 
 .owl-dots{
     padding-top: 24px;
+}
+
+.social-links{
+    border-radius: 3px;
+}
+
+.warning-section{
+    background-color: #1E9FA4;
+}
+
+.appreciate-section{
+    height: 600px;
+    background-image: url("../img/appreaciate-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    height: 600px;
+    background-color: rgba(0, 62, 65, 0.58);
+}
+
+.wrapper-comment{
+    padding-top: 100px;
 }
 
 .input-border{
