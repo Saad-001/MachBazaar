@@ -16,7 +16,7 @@ $('.owl-carousel').owlCarousel({
 })
 
 window.onscroll = () => {
-  const nav = document.querySelector('#navbar-id');
+  const nav = document.querySelector('#navbar');
   if(this.scrollY <= 10) nav.className = 'navbar-bg-color navbar navbar-light pl-lg-0 py-lg-0 border-bottom border-white navbar-expand-lg'; else nav.className = 'scroll navbar navbar-light pl-lg-0 py-lg-0 border-bottom border-white navbar-expand-lg';
 };
 

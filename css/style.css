@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Karla', sans-serif;
@@ -73,6 +75,12 @@ nav.scroll {
     text-decoration: none;
 }
 
+.fish-benifit-div{
+    border: 1px solid #1E9FA4;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
 .footer-a-tag{
     text-decoration: none !important;
     color: black;
