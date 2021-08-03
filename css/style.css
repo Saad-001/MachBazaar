@@ -138,6 +138,11 @@ nav.scroll {
     background-size: cover;
 }
 
+/* .card-description :hover{
+    background-color: #155F7A;
+    color: white;
+} */
+
 .overlay{
     height: 600px;
     background-color: rgba(0, 62, 65, 0.58);
