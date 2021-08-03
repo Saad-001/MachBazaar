@@ -115,7 +115,7 @@ nav.scroll {
 }
 
 .carousel-card{
-    margin: o auto;
+    margin: 0 auto;
 }
 
 .owl-dots{
@@ -154,8 +154,27 @@ nav.scroll {
     outline: none;
 }
 
+.tabs-wrapper{
+    box-shadow: 5px 5px 5px 3px rgb(226, 225, 225);
+}
+
+.tab-tag{
+    text-decoration: none !important;
+    font-size: 20px;
+}
+
 .footer-bg-color{
     background-color: #F4F8F8;
+}
+
+.free-delivery{
+    position: absolute;
+    width: 170px;
+    height: 238px;
+    top: 0px;
+    right: 0px;
+    padding-top: 65px;
+    background-color: rgba(253, 253, 253, 0.795);
 }
 
 @media screen and (max-width: 1500px){
