@@ -138,9 +138,18 @@ nav.scroll {
     background-size: cover;
 }
 
-.card-description :hover{
+.bulk-offer-card{
+    cursor: pointer;
+}
+
+.bulk-offer-card:hover .card-description, .bulk-offer-card:hover .card-description h4, .bulk-offer-card:hover .card-description h5, .bulk-offer-card:hover .card-description h5 span {
     background-color: #155F7A;
-    color: white;
+    color: #fff !important;
+}
+
+.bulk-offer-card:hover .card-description .btn-bg-color {
+    background: #fff;
+    color: #155F7A !important;
 }
 
 .overlay{
