@@ -145,6 +145,7 @@ nav.scroll {
 .bulk-offer-card:hover .card-description, .bulk-offer-card:hover .card-description h4, .bulk-offer-card:hover .card-description h5, .bulk-offer-card:hover .card-description h5 span {
     background-color: #155F7A;
     color: #fff !important;
+    transition: background-color 0.4s ease-out;
 }
 
 .bulk-offer-card:hover .card-description .btn-bg-color {
