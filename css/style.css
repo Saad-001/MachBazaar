@@ -82,7 +82,7 @@ nav.scroll {
     text-decoration: none;
 }
 
-.fish-benifit-div{
+.fish-benefit-div{
     border: 1px solid #1E9FA4;
     border-radius: 10px;
     padding-top: 25px;
@@ -142,17 +142,24 @@ nav.scroll {
     cursor: pointer;
 }
 
-.bulk-offer-card:hover .card-description{
-    background-color: #155F7A;
-    transition: background-color 0.6s ease-out;
+.bulk-offer-card .card-description{
+    transition: background-color 0.4s ease-out;
 }
 
-.bulk-offer-card:hover .card-description, .bulk-offer-card:hover .card-description h4, .bulk-offer-card:hover .card-description h5, .bulk-offer-card:hover .card-description h5 span {  
+.bulk-offer-card:hover .card-description{
+    background-color: #155F7A;  
+}
+
+.bulk-offer-card:hover .card-description, 
+.bulk-offer-card:hover .card-description h4, 
+.bulk-offer-card:hover .card-description h5, 
+.bulk-offer-card:hover .card-description h5 span {  
     color: #fff !important; 
 }
 
 .bulk-offer-card:hover .card-description .btn-bg-color {
     background: #fff;
+    border: 1px solid #fff;
     color: #155F7A !important;
     transition: background-color 0.6s ease-out;
 }
