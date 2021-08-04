@@ -48,7 +48,40 @@ tabTogglers.forEach(function(toggler) {
     });
   });
   
-  document.getElementById("default-tab").click();
+document.getElementById("default-tab").click();
+
+
+// javascript for mobile tabs
+
+let mobileTabsContainer = document.querySelector("#mobile-tabs");
+
+let mobileTabTogglers = mobileTabsContainer.querySelectorAll("a");
+console.log(mobileTabTogglers);
+
+
+mobileTabTogglers.forEach(function(toggler) {
+    toggler.addEventListener("click", function(e) {
+      e.preventDefault();
+  
+      let tabName = this.getAttribute("href");
+  
+      let mobileTabContents = document.querySelector("#mobile-tab-contents");
+  
+      for (let i = 0; i < mobileTabContents.children.length; i++) {
+        
+        mobileTabTogglers[i].classList.remove("font-weight-bold", "border-bottom", "border-dark");  
+        mobileTabContents.children[i].classList.remove("d-none");
+        if ("#" + mobileTabContents.children[i].id === tabName) {
+          continue;
+        }
+        mobileTabContents.children[i].classList.add("d-none");
+        
+      }
+      e.target.classList.add("font-weight-bold", "border-bottom", "border-dark");
+    });
+  });
+  
+document.getElementById("mobile-default-tab").click();
 
 
 

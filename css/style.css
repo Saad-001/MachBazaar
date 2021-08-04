@@ -203,6 +203,28 @@ nav.scroll {
     background-color: rgba(253, 253, 253, 0.795);
 }
 
+@media  screen and (max-width: 1000px) {
+    .free-delivery-responsive{
+        position: absolute;
+        width: 170px;
+        height: 183px;
+        top: 0px;
+        right: 0px;
+        padding-top: 20px;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .free-delivery-responsive{
+        position: absolute;
+        width: 170px;
+        height: 183px;
+        top: 0px;
+        right: 0px;
+        padding-top: 42px;
+    }
+}
+
 @media screen and (max-width: 1500px){
     .fish-container{
         position: absolute;
