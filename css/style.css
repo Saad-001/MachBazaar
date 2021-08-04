@@ -158,9 +158,8 @@ nav.scroll {
 }
 
 .bulk-offer-card:hover .card-description .btn-bg-color {
-    background: #fff;
     border: 1px solid #fff;
-    color: #155F7A !important;
+    color: #ffffff;
     transition: background-color 0.4s ease-out;
 }
 
