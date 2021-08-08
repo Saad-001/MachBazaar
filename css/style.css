@@ -34,6 +34,13 @@ nav.scroll {
     transition: background-color 0.4s ease-out;
 }
 
+.navbar-bg-color-second{
+    background-color: #155F7A;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
 
 .nav-links-font-size{
     font-size: 24px;
@@ -70,8 +77,24 @@ nav.scroll {
     width: 80px;
 }
 
+.details-badge-one{
+    border-radius: 3px;
+}
+
+.details-badge-two{
+    border-radius: 3px;
+    color: #155F7A;
+    border: 1px solid #155F7A;
+}
+
 .text-color-blue{
     color: #155F7A;
+}
+
+.text-color-light-green{
+    color: #1E9FA4;
+    border: 1px solid #1E9FA4;
+    text-decoration: none;
 }
 
 .fish-category-container{

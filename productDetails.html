@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product Details Page</title>
+
+    <link rel="icon" href="./img/favicon32.png" type="image/x-icon">
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/4c6530eb2c.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap css link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- google fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Spectral&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+</head>
+
+<body id="backtoTop">
+    <!-- navbar starts -->
+    <nav id="navbar"
+        class="navbar pl-lg-0 py-lg-0 border-bottom border-white navbar-light navbar-expand-lg navbar-bg-color-second">
+        <img src="./img/logo-white.png" class="logo-img py-lg-2 pl-lg-3" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active mx-lg-3">
+                    <a class="nav-link font-weight-bold text-white" href="#">Home <span
+                    class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown mr-lg-3">
+                    <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shop
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Deshi Fish</a>
+                        <a class="dropdown-item" href="#">Dry Fish</a>
+                        <a class="dropdown-item" href="#">Shellfish</a>
+                        <a class="dropdown-item" href="#">Sea Fish</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-white" href="#">Contact</a>
+                </li>
+                <li class="nav-item bg-white rounded ml-lg-3">
+                    <a class="nav-link px-lg-4 px-2 font-weight-bold text-center" style="color: #155F7A;"
+                        href="#">Today's Deal</a>
+                </li>
+                <li class="nav-item mx-lg-3 mt-3 mt-lg-0">
+                    <a class="px-lg-4 px-2 nav-link font-weight-bold border border-white rounded text-white text-center"
+                        href="#">Sign in</a>
+                </li>
+                <li class="nav-item d-flex mt-2 mt-lg-0">
+                    <a class="pt-2 text-white" href="#"><i class="fas fa-shopping-bag nav-links-font-size"></i></a>
+                    <span class="text-white ml-1">(0)</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <section class="px-4 pt-4">
+        <p><a href="" style="text-decoration: none;" class="text-dark">Home</a> <i class="fas fa-chevron-right" style="font-size: 12px;"></i> <a href="" style="text-decoration: none;" class="text-dark">Deshi Fish</a> <i class="fas fa-chevron-right" style="font-size: 12px;"></i> <a href="" style="text-decoration: none" class="text-dark font-weight-bold">Rohu (Rui) Medium</a>
+        </p>
+    </section>
+    
+    <main class="px-4 pt-3 pb-4">
+        
+        <!-- for desktop version -->
+        <div class="">
+            <div class="d-flex flex-column flex-xl-row">
+                <div class="">
+                    <div id="tabs" class="d-flex flex-xl-column flex-row mb-4">
+                        <a href="#first" id="default-tab" class="mb-xl-3 mr-3 mr-xl-0"><img class="" style="width: 80px;" src="./img/ruiMachSmall.png" alt="thumbnailImage"></a>
+                        <a href="#second"><img class="mb-xl-3 mr-3 mr-xl-0" style="width: 80px;" src="./img/ruiMachSmall.png" alt="thumbnailImage"></a>
+                        <a href="#third"><img class="" style="width: 80px;" src="./img/ruiMachSmall.png" alt="thumbnailImage"></a>
+                    </div>
+                </div>
+                
+                <div id="tab-contents" class="ml-xl-4">
+                    <img id="first" class="" style="width: 100%;" src="./img/ruiMachBig.png" alt="productImage">
+                    <img id="second" class="d-none" style="width: 100%;" src="./img/citolFish.png" alt="productImage">
+                    <img id="third" class="d-none" style="width: 100%;" src="./img/rupchada.png" alt="productImage">
+                </div>
+    
+                <div class="ml-xl-4 mt-4 mt-xl-0">
+                    <h3 class="text-color-blue font-weight-bold mb-1">রুই মাছ মাঝারী</h3>
+                    <h3 class="text-color-blue font-weight-bold">Rohu (Rui) Medium</h3>
+                    <div class="d-flex">
+                        <div class="btn-bg-color text-white details-badge mr-2 py-1 px-3 font-balooDa" style="border-radius: 3px;">Deshi Fish</div>
+                        <div style="background-color: #1E9FA4; border-radius: 3px;" class="text-white details-badge py-1 px-3 font-balooDa">নদীর মাছ</div>
+                    </div>
+                    <div class="mt-3 d-flex align-items-center">
+                        <p class="mb-1 font-weight-bold" style="font-size: 18px; color: #1E9FA4;">Size:</p>
+                        <a href="" style="text-decoration: none;"><div class=" py-1 px-3 text-color-light-green font-weight-bold details-badge-one ml-3">Small</div></a>
+                        <a href="" style="text-decoration: none;"><div class=" py-1 px-3 text-color-light-green font-weight-bold details-badge-one ml-2">Medium</div></a>
+                        <a href="" style="text-decoration: none;"><div class=" py-1 px-3 text-color-light-green font-weight-bold details-badge-one ml-2">Large</div></a>
+                    </div>
+                    <div class="mt-3 d-flex align-items-center">
+                        <p class="mb-1 text-color-blue font-weight-bold" style="font-size: 18px;">Weight:</p>
+                        <a href="" style="text-decoration: none;"><div class=" py-1 px-3 text-color-blue font-weight-bold details-badge-two ml-3">1kg</div></a>
+                        <a href="" style="text-decoration: none;"><div class=" py-1 px-3 text-color-blue font-weight-bold details-badge-two ml-2">Custom</div></a>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <h2 class="font-weight-bold font-spectral mr-2 mb-1">BDT. 500</h2>
+                        <h3 class="font-spectral mb-1"><del>BDT. 1000</del></h3>
+                    </div>
+                    <div class="d-flex mt-2">
+                        <div class="inline py-1 px-2 rounded mr-2" style="border: 1px solid gray; border-radius: 3px;">
+                            <span class="small font-weight-bold">4.5</span>
+                            <i class="fas fa-star small"></i>
+                        </div>
+                        <div class="py-1 px-3 text-white" style="border-radius: 3px; background-color: #28A745;">
+                            <span class="text-white text-sm">In stock</span>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-3">
+                        <div class="d-flex flex-column">
+                            <a href="" style="text-decoration: none; border-radius: 3px;" class="d-flex align-items-center text-white py-2 px-3 btn-bg-color"><i class="fas fa-cart-arrow-down mr-3"></i> Add to Cart</a>
+                            <a href="" style="text-decoration: none; border-radius: 3px; background-color: #1E9FA4;" class="d-flex mt-3 align-items-center text-white py-2 px-4"><i class="fas fa-tag mr-3"></i> Buy Now</a>
+                            <a href="" style="text-decoration: none; border-radius: 3px; background-color: #7C9EAC;" class="d-flex mt-3 align-items-center text-white py-2 px-4"><i class="fas fa-heart mr-3"></i> Wishlist</a>
+                        </div>
+                        <div class="ml-4 mt-2" style="height: 133px; border-left: 1px solid gray;"></div>
+                        <div class="ml-4">
+                            <div class="">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="mr-3" style="height: 20px;" src="./img/Vector_4.png" alt="">
+                                    <span class="font-semibold">Processed fish</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="mr-3" style="height: 20px;" src="./img/Vector_5.png" alt="">
+                                    <span class="font-semibold">Secure transaction</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="mr-2" style="height: 20px;" src="./img/Vector_3.png" alt="">
+                                    <span class="font-semibold">Accept returns</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img class="mr-2" style="height: 20px;" src="./img/Group.png" alt="">
+                                    <span class="font-semibold">Payment first</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-4 mt-xl-2">
+                        <span class="font-weight-bold text-color-blue mb-2 mr-3">Share:</span>
+                        <div class="d-flex align-items-center">
+                            <a href="" style="font-size: 22px;" class="text-color-blue text-center mr-3"><i class="fab fa-facebook-square"></i></a>
+                            <a href="" style="font-size: 22px;" class="text-color-blue text-center mr-3"><i class="fab fa-twitter"></i></a>
+                            <a href="" style="font-size: 22px;" class="text-color-blue text-center"><i class="fab fa-instagram-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="ml-xl-4 mt-4 mt-xl-0">
+                    <div style="background-color: rgb(246, 251, 251); border-radius: 3px;" class="px-2 py-3 font-balooDa border">
+                        <p class="text-center mb-3">উপকারিতাসমূহ / ১০০গ্রাম</p>
+                        <p class="mb-3">প্রোটিনঃ +- ১৬.৪ গ্রাম </p>
+                        <p class="mb-3">ক্যালসিয়ামঃ +- ৬৮০ মিলিগ্রাম</p>
+                        <p class="mb-3">চর্বিঃ +- ১.৪ গ্রাম</p>
+                        <p class="mb-3">ফসফরাসঃ +- ২২৩ মিলিগ্রাম</p>
+                        <p class="mb-0">ক্যালরি +- ৭৯ গ্রাম</p>
+                    </div>
+                    <div style="background-color: #fbeae7; border-radius: 3px;" class="px-2 py-3 mt-3 font-balooDa border">
+                        <p class="text-center mb-3">ফর্মালিনযুক্ত মাছের বৈশিষ্ট্য</p>
+                        <p class="mb-3"><i class="fas fa-exclamation-triangle mr-2"></i> চোখ ভেতরে ঢুকে থাকে</p>
+                        <p class="mb-3"><i class="fas fa-exclamation-triangle mr-2"></i> ফ্যাকাশে দেখা যায়</p>
+                        <p class="mb-3"><i class="fas fa-exclamation-triangle mr-2"></i> ফুলকা কালচে বর্ণের হয়</p>
+                        <p class="mb-3"><i class="fas fa-exclamation-triangle mr-2"></i> আঁশটে গন্ধ কম হয়</p>
+                        <p class="mb-0"><i class="fas fa-exclamation-triangle mr-2"></i> মৃত্যুর ভয়ে মাছি বসে না</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- desktop version ends -->
+
+        <!-- mobile version starts -->
+        <!-- <div class="d-block d-xl-none">
+            <div class="d-flex flex-column">                
+                <div id="mobile-details-tab-contents" class="">
+                    <img id="first" class="" style="width: 100%;" src="./img/ruiMachBig.png" alt="productImage">
+                    <img id="second" class="d-none" style="width: 100%;" src="./img/rupchada.png" alt="productImage">
+                    <img id="third" class="d-none" style="width: 100%;" src="./img/shutki.png" alt="productImage">
+                </div>
+
+                <div class="mt-4 mb-4">
+                    <div id="mobile-details-tabs" class="d-flex">
+                        <a href="#first" id="default-tab" class="mr-3"><img class="" style="width: 80px;" src="./img/ruiMachSmall.png" alt="thumbnailImage"></a>
+                        <a href="#second"><img class="mr-3" style="width: 80px;" src="./img/ruiMachSmall.png" alt="thumbnailImage"></a>
+                        <a href="#third"><img class="mr-3" style="width: 80px;" src="./img/ruiMachSmall.png" alt="thumbnailImage"></a>
+                    </div>
+                </div>
+    
+                <div class="ml-xl-4">
+                    <h3 class="text-color-blue font-weight-bold mb-1">রুই মাছ মাঝারী</h3>
+                    <h3 class="text-color-blue font-weight-bold">Rohu (Rui) Medium</h3>
+                    <div class="d-flex">
+                        <div class="btn-bg-color text-white details-badge mr-2 py-1 px-3 font-balooDa" style="border-radius: 3px;">Deshi Fish</div>
+                        <div style="background-color: #1E9FA4; border-radius: 3px;" class="text-white details-badge py-1 px-3 font-balooDa">নদীর মাছ</div>
+                    </div>
+                    <div class="mt-3 d-flex align-items-center">
+                        <p class="mb-1 font-weight-bold" style="font-size: 18px; color: #1E9FA4;">Size:</p>
+                        <a href="" style="text-decoration: none;"><div class=" py-1 px-3 text-color-light-green font-weight-bold details-badge-one ml-3">Small</div></a>
+                        <a href="" style="text-decoration: none;"><div class=" py-1 px-3 text-color-light-green font-weight-bold details-badge-one ml-2">Medium</div></a>
+                        <a href="" style="text-decoration: none;"><div class=" py-1 px-3 text-color-light-green font-weight-bold details-badge-one ml-2">Large</div></a>
+                    </div>
+                    <div class="mt-3 d-flex align-items-center">
+                        <p class="mb-1 text-color-blue font-weight-bold" style="font-size: 18px;">Weight:</p>
+                        <a href="" style="text-decoration: none;"><div class=" py-1 px-3 text-color-blue font-weight-bold details-badge-two ml-3">1kg</div></a>
+                        <a href="" style="text-decoration: none;"><div class=" py-1 px-3 text-color-blue font-weight-bold details-badge-two ml-2">Custom</div></a>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <h2 class="font-weight-bold font-spectral mr-2 mb-1">BDT. 500</h2>
+                        <h3 class="font-spectral mb-1"><del>BDT. 1000</del></h3>
+                    </div>
+                    <div class="d-flex mt-2">
+                        <div class="inline py-1 px-2 rounded mr-2" style="border: 1px solid gray; border-radius: 3px;">
+                            <span class="small font-weight-bold">4.5</span>
+                            <i class="fas fa-star small"></i>
+                        </div>
+                        <div class="py-1 px-3 text-white" style="border-radius: 3px; background-color: #28A745;">
+                            <span class="text-white text-sm">In stock</span>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-4">
+                        <div class="d-flex flex-column">
+                            <a href="" style="text-decoration: none; border-radius: 3px;" class="d-flex align-items-center justify-content-between text-white py-2 px-3 btn-bg-color"><i class="fas fa-cart-arrow-down mr-3 mr-lg-3"></i> Add to Cart</a>
+                            <a href="" style="text-decoration: none; border-radius: 3px; background-color: #1E9FA4;" class="d-flex mt-3 align-items-center text-white py-2 px-4"><i class="fas fa-tag mr-3"></i> Buy Now</a>
+                            <a href="" style="text-decoration: none; border-radius: 3px; background-color: #7C9EAC;" class="d-flex mt-3 align-items-center text-white py-2 px-4"><i class="fas fa-heart mr-3"></i> Wishlist</a>
+                        </div>
+                        <div class="ml-4 mt-2" style="height: 133px; border-left: 1px solid gray;"></div>
+                        <div class="ml-4">
+                            <div class="">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="mr-3" style="height: 20px;" src="./img/Vector_4.png" alt="">
+                                    <span class="font-semibold">Processed fish</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="mr-3" style="height: 20px;" src="./img/Vector_5.png" alt="">
+                                    <span class="font-semibold">Secure transaction</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="mr-2" style="height: 20px;" src="./img/Vector_3.png" alt="">
+                                    <span class="font-semibold">Accept returns</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img class="mr-2" style="height: 20px;" src="./img/Group.png" alt="">
+                                    <span class="font-semibold">Payment first</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <span class="font-weight-bold text-color-blue mb-2 mr-3">Share:</span>
+                        <div class="d-flex align-items-center">
+                            <a href="" style="font-size: 22px;" class="text-color-blue text-center mr-3"><i class="fab fa-facebook-square"></i></a>
+                            <a href="" style="font-size: 22px;" class="text-color-blue text-center mr-3"><i class="fab fa-twitter"></i></a>
+                            <a href="" style="font-size: 22px;" class="text-color-blue text-center"><i class="fab fa-instagram-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="ml-xl-4 mt-4">
+                    <div style="background-color: rgb(246, 251, 251); border-radius: 3px;" class="px-2 py-3 font-balooDa border">
+                        <p class="text-center mb-3">উপকারিতাসমূহ / ১০০গ্রাম</p>
+                        <p class="mb-3">প্রোটিনঃ +- ১৬.৪ গ্রাম </p>
+                        <p class="mb-3">ক্যালসিয়ামঃ +- ৬৮০ মিলিগ্রাম</p>
+                        <p class="mb-3">চর্বিঃ +- ১.৪ গ্রাম</p>
+                        <p class="mb-3">ফসফরাসঃ +- ২২৩ মিলিগ্রাম</p>
+                        <p class="mb-0">ক্যালরি +- ৭৯ গ্রাম</p>
+                    </div>
+                    <div style="background-color: #fbeae7; border-radius: 3px;" class="px-2 py-3 mt-3 font-balooDa border">
+                        <p class="text-center mb-3">ফর্মালিনযুক্ত মাছের বৈশিষ্ট্য</p>
+                        <p class="mb-3"><i class="fas fa-exclamation-triangle mr-2"></i> চোখ ভেতরে ঢুকে থাকে</p>
+                        <p class="mb-3"><i class="fas fa-exclamation-triangle mr-2"></i> ফ্যাকাশে দেখা যায়</p>
+                        <p class="mb-3"><i class="fas fa-exclamation-triangle mr-2"></i> ফুলকা কালচে বর্ণের হয়</p>
+                        <p class="mb-3"><i class="fas fa-exclamation-triangle mr-2"></i> আঁশটে গন্ধ কম হয়</p>
+                        <p class="mb-0"><i class="fas fa-exclamation-triangle mr-2"></i> মৃত্যুর ভয়ে মাছি বসে না</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- mobile version ends -->
+    </main>
+
+    <section class="py-lg-4 py-3 px-4">
+        <div class="btn-bg-color py-3 mx-lg-3 rounded">
+            <div class="container">
+                <div id="descriptionTabs" class="row text-white text-center font-balooDa">
+                    <div class="col-md-4 mb-2 mb-lg-0">
+                        <div class="col-md-12 px-xl-4">
+                            <h4 class="pb-2 mx-5 mb-0"><a href="#details" id="description-default-tab" style="text-decoration: none;" class="text-white border-bottom border-muted ">বিস্তারিত</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2 mb-lg-0">
+                        <div class="col-md-12 px-xl-4">
+                            <h4 class="pb-2 mx-5 mb-0"><a href="#opinions" style="text-decoration: none;" class="text-white">অন্যদের মতামত</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-md-12 px-xl-4">
+                            <h4 class="pb-2 mx-5 mb-0"><a href="#delivery" style="text-decoration: none;" class="text-white">ডেলিভারী প্রসঙ্গে</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="descriptionTabContents" style="background-color: #EEEEEE;" class="mt-lg-2 mt-3 rounded py-4 mx-lg-3 px-4">
+            <div id="details" class="">
+                <p class="text-dark font-balooDa mb-0">রুই মাছ মিষ্টি জলের মাছ। এর বৈজ্ঞানিক নাম হল লেবিও রোহিতা। এদের দেহের আকৃতি অনেকটা মাকুর মতো। মাথা ও লেজ সরু হয়। সারা শরীর রুপালী
+                    আঁশ দিয়ে ঢাকা থাকে। আঁশগুলো মসৃণ হয়। এর ঠোঁটের ওপর একজোড়া গোঁফ থাকে। রুই মাছ নদী, খাল, বিল এবং পুকুরে বাস করে। প্রতি ১০০ গ্রাম মাছে
+                     ১৬.৪ গ্রাম প্রোটিন, ১.৪ গ্রাম ফ্যাট, ৬৮০ মি.গ্রা. ক্যালসিয়াম ও ২২৩ মি.গ্রা. ফসফরাস থাকে।
+                    <br> <br>
+                    রুই মাছের প্রধান খাদ্য হল উদ্ভিদজাত জৈব পদার্থ। এরা পুকুরের তলার নরম মাটি খেতে অভ্যস্ত। অপেক্ষাকৃত কম গভীর জলে ও নদীর পাড়ে ডিম পাড়ে। 
+                    জুন থেকে আগস্ট মাসের হল এদের ডিম পাড়ার সময়। বড় রুই মাছের চাহিদা বেশী তাই বড় রুই মাছ ধরে বাজারে বিক্রি করা ভালো।
+                </p>
+            </div>
+            <div id="opinions" class="d-none">
+                <p class="text-dark font-balooDa mb-0">মাছ বাজার ডট কমের সাথে কাজ করতে
+                    পেরে আমি সন্তুষ্ট । একটা সময় চিন্তা করতাম
+                    আমার সংগ্রহের মাছ কেমনে অনলাইনের মাধ্যমে
+                    বিক্রয় করবো, সে চিন্তা এখন আর নেই । আশা করি,
+                    আমার স্বচ্ছলতার জন্য আপনাদের কাছ থেকে আরো
+                    সহায়তা পাব। বলেছেন, <span class="font-weight-bold">আবদুর রহীম</span>
+                </p>
+            </div>
+            <div id="delivery" class="d-none">
+                <p class="text-dark font-balooDa mb-0">রুই মাছ মিষ্টি জলের মাছ। এর বৈজ্ঞানিক নাম হল লেবিও রোহিতা। এদের দেহের আকৃতি অনেকটা মাকুর মতো। মাথা ও লেজ সরু হয়। সারা শরীর রুপালী
+                    আঁশ দিয়ে ঢাকা থাকে। আঁশগুলো মসৃণ হয়। এর ঠোঁটের ওপর একজোড়া গোঁফ থাকে। রুই মাছ নদী, খাল, বিল এবং পুকুরে বাস করে। প্রতি ১০০ গ্রাম মাছে
+                     ১৬.৪ গ্রাম প্রোটিন, ১.৪ গ্রাম ফ্যাট, ৬৮০ মি.গ্রা. ক্যালসিয়াম ও ২২৩ মি.গ্রা. ফসফরাস থাকে।
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="pt-2 pb-5 pt-lg-5 pb-lg-5 bg-white">
+        <div class="container-fluid px-lg-5 px-4">
+            <div class="row ">
+                <div class="col-md-4 py-2 py-lg-0">
+                    <div class="col-md-12 text-center items-center px-5 fish-benefit-div">
+                        <img src="./img/scenticon.png" style="height: 40px;" alt="">
+                        <h3 class="mt-3 mb-0 font-balooDa">কোমল ঘ্রাণ</h3>
+                        <h3 class="mt-1">Mild Scent</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 py-2 py-lg-0">
+                    <div class="col-md-12 text-center items-center px-5 fish-benefit-div">
+                        <img src="./img/fishicon.png" style="height: 40px;" alt="">
+                        <h3 class="mt-3 mb-0 font-balooDa">তাজা মাছ</h3>
+                        <h3 class="mt-1">Moist Fish</h3>
+                    </div>
+                </div>
+                <div class="col-md-4 py-2 py-lg-0">
+                    <div class="col-md-12 text-center items-center px-5 fish-benefit-div">
+                        <img src="./img/boxicon.png" style="height: 40px;" alt="">
+                        <h3 class="mt-3 mb-0 font-balooDa">টেকসই মোড়ক </h3>
+                        <h3 class="mt-1">Durable Pack</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center p-3 p-lg-2" style="background-color: #7C9EAC;">
+        <a href="#backtoTop" class="text-white" style="text-decoration: none; font-size: 24px;">Back to top</a>
+    </section>
+
+    <!-- footer section starts -->
+    <section class="footer-bg-color container-fluid pt-5 pb-4">
+        <div class="d-flex flex-lg-row flex-column justify-content-between mx-lg-5 mx-2">
+            <div class="flex-fill">
+                <p class="mb-4 font-weight-bold">Online Shopping</p>
+                <div class="d-flex flex-column my-3">
+                    <a href="" class="footer-a-tag">Mushrooms</a>
+                    <a href="" class="footer-a-tag">Perfumes</a>
+                    <a href="" class="footer-a-tag">Honey</a>
+                    <a href="" class="footer-a-tag">Black Seed</a>
+                </div>
+            </div>
+
+            <div class="flex-fill px-lg-4 px-xl-0">
+                <p class="mb-4 font-weight-bold mt-4 mt-lg-0">Useful Links</p>
+                <div class="d-flex flex-column my-3">
+                    <a href="" class="footer-a-tag">Contact Us</a>
+                    <a href="" class="footer-a-tag">FAQ</a>
+                    <a href="" class="footer-a-tag">T&C</a>
+                    <a href="" class="footer-a-tag">Terms of Use</a>
+                    <a href="" class="footer-a-tag">Track Orders</a>
+                    <a href="" class="footer-a-tag">Shipping</a>
+                    <a href="" class="footer-a-tag">Returns</a>
+                    <a href="" class="footer-a-tag">Black Seed</a>
+                    <a href="" class="footer-a-tag">Blog</a>
+                    <a href="" class="footer-a-tag">Privacy Policy</a>
+                    <a href="" class="footer-a-tag">Sitemap</a>
+                </div>
+            </div>
+
+            <div class="flex-fill px-lg-4 px-xl-0">
+                <p class="mb-4 font-weight-bold mt-4 mt-lg-0">Payment Gateway</p>
+                <div class="d-flex">
+                    <a href=""><img src="./img/visa.png" alt=""></a>
+                    <a href=""><img src="./img/masterCard.png" alt=""></a>
+                    <a href=""><img src="./img/dbbl.png" alt=""></a>
+                </div>
+                <div class="d-flex">
+                    <a href=""><img src="./img/bkash.png" alt=""></a>
+                    <a href=""><img src="./img/rocket.png" alt=""></a>
+                    <a href=""><img src="./img/IslamiBank.png" alt=""></a>
+                </div>
+                <div class="mt-5">
+                    <p class="font-weight-bold mb-3">Contact Us</p>
+                    <div class="d-flex align-items-center">
+                        <p class="mr-3 mb-1" style="font-size: 22px;"><i class="far fa-envelope"></i> </p>
+                        <p class="mb-1" style="font-size: 16px;">hello@machbazaar.com</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p class="mr-lg-3 mr-4 ml-lg-1" style="font-size: 23px;"><i class="fas fa-map-marker-alt"></i>
+                        </p>
+                        <p class="" style="font-size: 16px;">Khulna, Bangladesh.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-fill pl-lg-4 pl-xl-0">
+                <p class="mb-4 font-weight-bold mt-4 mt-lg-0">Subscribe</p>
+
+                <p class="mb-4 text-sm font-semibold">Our product recommendation you'll love to receive.
+                    <br>
+                    No spam, Unsubscribe anytime.
+                </p>
+                <div class="py-1 px-1 pl-1 d-flex inline-flex bg-white rounded">
+                    <input type="text" style="width: 100%;" class="mr-2 px-2 input-border"
+                        placeholder="Your email address">
+                    <a href="" class="btn-bg-color py-1 px-2 text-white footer-a-tag">Subscribe</a>
+                </div>
+                <div class="d-flex align-items-center mt-4">
+                    <img src="./img/Vector100.png" class="mr-3" alt="">
+                    <p>100% ORIGINAL guarantee for all <br> products at vipdokan.com</p>
+                </div>
+                <div class="d-flex align-items-center mt-4">
+                    <img src="./img/VectorWallet.png" class="mr-3 ml-2" alt="">
+                    <p>Return within 30days of receiving <br> your order</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p class="small font-weight-bold">© 2021 machbazaar.com All rights reserved.</p>
+        </div>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- js links -->
+    <!-- some important js links for bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./js/productDetails.js"></script>
+</body>
+
+</html>
