@@ -84,7 +84,6 @@ mobileTabTogglers.forEach(function(toggler) {
   
 document.getElementById("mobile-default-tab").click();
 
-
 // grab everything we need
 // const btn = document.querySelector(".mobile-menu-button");
 // const sidebar = document.querySelector(".sidebar");
