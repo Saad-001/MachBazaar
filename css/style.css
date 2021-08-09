@@ -191,6 +191,10 @@ nav.scroll {
     background-color: rgba(0, 62, 65, 0.58);
 }
 
+.horizontal-line{
+    margin-bottom: 14px;
+}
+
 .wrapper-comment{
     padding-top: 100px;
 }
