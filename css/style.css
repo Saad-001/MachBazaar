@@ -223,6 +223,19 @@ nav.scroll {
     outline: none;
 }
 
+.flex-even{
+    flex: 1;
+}
+
+.select-Items{
+    padding-bottom: 10px;
+}
+
+.select-Items option{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .tabs-wrapper{
     box-shadow: 5px 5px 5px 3px rgb(226, 225, 225);
 }
