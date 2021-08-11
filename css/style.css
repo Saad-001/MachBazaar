@@ -293,3 +293,9 @@ nav.scroll {
     }
 }
 
+@media screen and (max-width: 400px){
+    .order-details p{
+        font-size: 12px;
+    }  
+}
+
