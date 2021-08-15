@@ -14,15 +14,12 @@ tabTogglers.forEach(function(toggler) {
       let tabContents = document.querySelector("#tab-contents");
         
       for (let i = 0; i < tabContents.children.length; i++) {
-        
-        // tabTogglers[i].classList.remove("opacity-50");
         tabContents.children[i].classList.remove("d-none");
         if ("#" + tabContents.children[i].id === tabName) {
           continue;
         }
         tabContents.children[i].classList.add("d-none"); 
       }
-      // e.target.classList.remove("");
     });
   });
   
@@ -59,4 +56,4 @@ descriptionTabTogglers.forEach(function(toggler) {
     });
   });
   
-document.getElementById("#description-default-tab").click();
+document.getElementById("description-default-tab").click();
